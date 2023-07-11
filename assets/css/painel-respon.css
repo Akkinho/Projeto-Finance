@@ -1,0 +1,204 @@
+@media only screen and (min-width: 1281px) and (max-width: 1500px){
+    .header-valores{
+        font-size: 25px;
+    }
+    .valores-corpo span, .valores-corpo p{
+        font-size: 14px;
+    }
+    .valores{
+        width: 100%;
+    }
+    .modal-corpo{
+        width: 40%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 1250px){
+    .busca input[type=text]:focus{
+        width: 31.25rem;
+    }
+    .valores-corpo span, .valores-corpo p{
+        font-size: 2.5rem;
+    }
+    .modal-corpo{
+        width: 40%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1280px){
+    body{
+        height: auto;
+        overflow-y: scroll;
+    }
+    .header-valores{
+        font-size: 18px;
+    }
+    .valores-corpo span, .valores-corpo p{
+        font-size: 25px;
+    }
+    .valores-corpo{
+        flex-wrap: wrap;
+    }
+    .valores{
+        width: 100%;
+    }
+    .options{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+        height: auto;
+    }
+    .cont-form, .cont-form select{
+        width: 18.75rem;
+        order: 2;
+    }
+    .btn-open{
+        width: 18.75rem;
+        order: 3;
+    }
+    .busca{
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    .busca input[type=text]{
+        padding: 12px 10px;
+    }
+    .busca input[type=text]:focus{
+        width: 30.25rem;
+    }
+    .tabela{
+        width: 100%;
+    }
+    .tabela-registros thead tr, .tabela-registros thead th{
+        font-size: 12px;
+    }
+    .tabela-registros tbody th, .tabela-registros tbody td{
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+    .modal-corpo{
+        width: 90%;
+        height: auto;
+    }
+    .modal-content-update{
+        width: 90%;
+        height: auto;
+    } 
+}
+
+@media only screen and (max-width: 950px){
+    .header-valores{
+        font-size: 30px;
+    }
+    .valores-corpo span, .valores-corpo p{
+        font-size: 18px;
+    }
+    body{
+        height: auto;
+        overflow-y: scroll;
+    }
+}
+
+@media screen and (max-width: 769px){
+    body{
+        height: auto;
+        overflow-y: scroll;
+    }
+    .nav-item{
+        display: none;
+        background: #25252b;
+    }
+    .mobile-menu-icon{
+        display: block;
+    }
+    .mobile-menu-icon button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        display: flex;
+    }
+    .mobile-menu div{
+        background: #25252b;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item{
+        display: block;
+        padding-top: 1rem 2rem;
+    }
+    .open{
+        display: block;
+    }
+    .header-valores{
+        font-size: 18px;
+    }
+    .valores-corpo span, .valores-corpo p{
+        font-size: 35px;
+    }
+    .valores{
+        width: 100%;
+        height: 37.5rem;
+        margin-top: 10px;
+    }
+    .valores-cards{
+        margin: 10px auto;
+        width: 70%;
+        height: 180px;
+    }
+    .options{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+        height: auto;
+    }
+    .cont-form, .cont-form select{
+        width: 18.75rem;
+        order: 2;
+    }
+    .btn-open{
+        width: 18.75rem;
+        order: 3;
+    }
+    .busca{
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    .busca input[type=text]{
+        padding: 12px 10px;
+    }
+    .tabela{
+        width: 100%;
+        height: 100%;
+    }
+    .tabela-registros thead tr, .tabela-registros thead th{
+        font-size: 12px;
+    }
+    .tabela-registros tbody th, .tabela-registros tbody td{
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+    .modal-corpo{
+        width: 100%;
+        height: 100%;
+    }
+    .modal-container{
+        height: 100%;
+        border-top: 0;
+        position: absolute;
+        top: 0;
+    }
+    .modal-content-update{
+        width: 90%;
+        height: auto;
+    }
+}
