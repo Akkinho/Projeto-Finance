@@ -32,6 +32,12 @@
 
 <hr>
 
+## Relatório Anual
+> Além das outras funções, nosso sistema conta com um relatório mensal no qual irá fornecer um gráfico de todas suas receitas e despesas lançadas naqueles meses, assim como um balanço. Com isso, o usuário poderá ter uma melhor visão de suas finanças ao longo do ano. Tendo também um Total de todas suas despesas, rendas e balanço ao lango desse ano.
+![preview](assets/img/git_prints/detalhamento.jpeg) 
+
+<hr>
+
 ## Armazenamento de dados
 > O cadastro de usuários e as movimentações financeiras são armazenados em um banco de dados, que pode ser MySQL, SQL ou MongoDB. A senha é salva criptografada, tornando-se assim uma string de caracteres aleatórios. O campo de confirmação de senha não é salvo no banco, apenas é usado para validar se o usuário digitou corretamente a mesma senha duas vezes.
 
