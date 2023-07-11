@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(24, 26, 32);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    border: 0;
+    font-family: sans-serif;
+}
+
+.corpo{
+    background: rgb(24, 26, 32);
+    border-top: 2px solid rgb(252, 213, 53);
+    border-bottom: 2px solid rgb(252, 213, 53);
+    width: 450px;
+    max-width: 100%;
+    padding: 15px;
+    animation: abrir-div 1s ease-in-out;
+}
+
+@keyframes abrir-div{
+    0%{
+      transform: scale(0);
+      opacity: 0;
+    }
+    100%{
+      transform: scale(1);
+      opacity: 1;
+    }
+}
+
+header{
+    padding: 5px 30px;
+}
+
+header h2{
+    font-weight: 600;
+    color: beige;
+    font-size: 30px;
+    text-align: center;
+}
+
+.form{
+    padding: 10px 20px;
+}
+
+.form-corpo{
+    position: relative;
+}
+
+.form-corpo label{
+    display: block;
+    margin-bottom: 7px;
+    color: #fff;
+}
+
+.form-corpo input{
+    border: 2px solid rgb(166, 168, 172);
+    background-color: rgb(24, 26, 32);
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 7px;
+    outline: 0;
+    display: flex;
+    display: block;
+    font-size: 14px;
+    width: 100%;
+    padding: 15px;
+    position: relative;
+}
+
+.sucesso input{
+    border: 2px solid rgb(38, 150, 56);
+}
+
+.erro input{
+    border: 2px solid rgb(180, 49, 49);
+}
+
+.erroMsg{
+    margin-top: 5px;
+    font-size: 14px;
+    padding-bottom: 5px;
+    color: rgb(180, 49, 49);
+}
+
+::placeholder{
+    color: #fff;
+}
+
+.form button{
+    background-color: rgb(252, 213, 53);
+    border-radius: 5px;
+    color: rgb(12, 12, 12);
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100%;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.form button:hover{
+    background-color: rgb(252, 213, 53);
+    transition: 0.3s;
+}
+
+footer h5{
+    color: #585555;
+    text-align: right;
+}
+
+footer h3{
+    color: #fff;
+    text-align: right;
+}
+
+a{
+    color: #dbd2d2;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #fff;
+}
