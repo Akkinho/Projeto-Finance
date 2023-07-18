@@ -50,7 +50,7 @@
 ## Instruções para criar o banco de dados
 <br>
 
-1. Primeiro vá até a pasta de conexão com o banco, localizada em "assets/includes/con_db.php"
+1. Primeiro vá até a pasta de conexão com o banco, localizada em "assets/php/includes/con_db.php".
 Lá você poderá editar as configurações de conexão para o seu banco. 
 
 2. Crie um banco de dados chamado `faixa` usando o comando SQL:
